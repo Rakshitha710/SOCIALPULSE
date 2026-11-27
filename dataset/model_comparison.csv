@@ -1,0 +1,4 @@
+Model,Accuracy,F1 Score
+Logistic Regression,0.854,0.8535962867953232
+Naive Bayes,0.737,0.7336448706781716
+Linear SVM,0.906,0.9057827708705939
