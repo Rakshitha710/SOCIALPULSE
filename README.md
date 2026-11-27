@@ -77,71 +77,42 @@ The dataset also contains different topics related to products, companies, games
 
 SOCIALPULSE
 
-â”‚
+## Project Structure
 
-â”œâ”€â”€ dashboard
+**SOCIALPULSE**
 
-â”‚   â””â”€â”€ app.py
+- dashboard
+  - app.py
 
-â”‚
+- dataset
+  - twitter_training.csv
+  - twitter_validation.csv
+  - twitter_training_cleaned.csv
+  - twitter_validation_cleaned.csv
+  - model_comparison.csv
+  - experiment_results.csv
 
-â”œâ”€â”€ dataset
+- models
+  - best_sentiment_model.pkl
+  - best_tfidf_vectorizer.pkl
+  - backup_sentiment_model.pkl
+  - backup_tfidf_vectorizer.pkl
 
-â”‚   â”œâ”€â”€ twitter\_training.csv
+- notebooks
+  - 01_data_exploration.py
+  - 02_data_preprocessing.py
+  - 03_sentiment_visualization.py
+  - 04_sentiment_model.py
+  - 05_model_comparison.py
+  - 06_save_best_model.py
+  - 07_test_model.py
+  - 08_experiment_models.py
 
-â”‚   â”œâ”€â”€ twitter\_validation.csv
+- src
+  - spark_processing.py
 
-â”‚   â”œâ”€â”€ twitter\_training\_cleaned.csv
-
-â”‚   â”œâ”€â”€ twitter\_validation\_cleaned.csv
-
-â”‚   â”œâ”€â”€ model\_comparison.csv
-
-â”‚   â””â”€â”€ experiment\_results.csv
-
-â”‚
-
-â”œâ”€â”€ models
-
-â”‚   â”œâ”€â”€ best\_sentiment\_model.pkl
-
-â”‚   â”œâ”€â”€ best\_tfidf\_vectorizer.pkl
-
-â”‚   â”œâ”€â”€ backup\_sentiment\_model.pkl
-
-â”‚   â””â”€â”€ backup\_tfidf\_vectorizer.pkl
-
-â”‚
-
-â”œâ”€â”€ notebooks
-
-â”‚   â”œâ”€â”€ 01\_data\_exploration.py
-
-â”‚   â”œâ”€â”€ 02\_data\_preprocessing.py
-
-â”‚   â”œâ”€â”€ 03\_sentiment\_visualization.py
-
-â”‚   â”œâ”€â”€ 04\_sentiment\_model.py
-
-â”‚   â”œâ”€â”€ 05\_model\_comparison.py
-
-â”‚   â”œâ”€â”€ 06\_save\_best\_model.py
-
-â”‚   â”œâ”€â”€ 07\_test\_model.py
-
-â”‚   â””â”€â”€ 08\_experiment\_models.py
-
-â”‚
-
-â”œâ”€â”€ src
-
-â”‚   â””â”€â”€ spark\_processing.py
-
-â”‚
-
-â”œâ”€â”€ README.md
-
-â””â”€â”€ requirements.txt
+- README.md
+- requirements.txt
 
 
 
